@@ -7,7 +7,6 @@ public class findDuplicate {
 		String str="";
 		//String s1="";
 		
-		
 		int j=0;
 		int count=0;
 		
@@ -21,19 +20,13 @@ public class findDuplicate {
 			}
 			else {
 				continue loop2;
+				}
 			}
-			
-			
-		}
 		str = str+ch[i];
-	}	
-				return str;
-}
+		}	
+		return str;
+	}
 		
-		
-		
-	
-
 public static void main(String []args)
 	{
 	findDuplicate d=new findDuplicate();
